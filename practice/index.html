@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- 구글 폰트 나눔고딕 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <!-- 구글 아이콘 -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css" />
+  <!-- Lodash CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+    integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Gsap CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+    integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script defer src="./js/main.js"></script>
+  <title>Starbucks</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="inner">
+      <div class="logo">
+        <a href="/">
+          <img src="../images/starbucks_logo.png" alt="starbucks">
+        </a>
+      </div>
+
+      <div class="sub-menu">
+        <ul class="menu">
+          <li><a href="javascript:void(0)">Sign ln</a></li>
+          <li><a href="javascript:void(0)">My Starbucks</a></li>
+          <li><a href="javascript:void(0)">Customer Service & ldeas</a></li>
+          <li><a href="javascript:void(0)">Find a Store</a></li>
+        </ul>
+        <div class="search">
+          <input type="text">
+          <div class="material-icons">search</div>
+        </div>
+      </div>
+      <ul class="main-menu">
+        <li class="item">
+          <div class="item__name">COFFEE</div>
+          <div class="item__contents">
+            <div class="contents__menu">
+              <ul class="inner">
+                <li>
+                  <h4>커피</h4>
+                  <ul>
+                    <li>콜드 브루</li>
+                    <li>브루드 커피</li>
+                    <li>에스프레소</li>
+                    <li>프라푸치노</li>
+                    <li>블렌디드 음료</li>
+                    <li>스타벅스 피지오</li>
+                    <li>티(티바나)</li>
+                    <li>기타 제조 음료</li>
+                    <li>스타벅스 주스(병음료)</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>에스프레소 음료</h4>
+                  <ul>
+                    <li>콜드 브루</li>
+                    <li>브루드 커피</li>
+                    <li>에스프레소</li>
+                    <li>프라푸치노</li>
+                    <li>블렌디드 음료</li>
+                    <li>스타벅스 피지오</li>
+                    <li>티(티바나)</li>
+                    <li>기타 제조 음료</li>
+                    <li>스타벅스 주스(병음료)</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+        </li>
+        <li class="item">
+          <div class="item__name">COFFEE</div>
+          <div class="item__contents">
+            <div class="contents__menu">
+              <ul class="inner">
+                <li>
+                  <h4>커피</h4>
+                  <ul>
+                    <li>콜드 브루</li>
+                    <li>브루드 커피</li>
+                    <li>에스프레소</li>
+                    <li>프라푸치노</li>
+                    <li>블렌디드 음료</li>
+                    <li>스타벅스 피지오</li>
+                    <li>티(티바나)</li>
+                    <li>기타 제조 음료</li>
+                    <li>스타벅스 주스(병음료)</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>에스프레소 음료</h4>
+                  <ul>
+                    <li>콜드 브루</li>
+                    <li>브루드 커피</li>
+                    <li>에스프레소</li>
+                    <li>프라푸치노</li>
+                    <li>블렌디드 음료</li>
+                    <li>스타벅스 피지오</li>
+                    <li>티(티바나)</li>
+                    <li>기타 제조 음료</li>
+                    <li>스타벅스 주스(병음료)</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="contents__texture">
+              <div class="inner">
+                <h4 class="new">스타벅스 티바나</h4>
+                <p>다양한 찻잎과 향신료 등 개성있는 재료로 새로운 맛과 향의 티를 선보입니다.</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="item__name">COFFEE</div>
+          <div class="item__contents">
+            <div class="contents__menu">
+              <ul class="inner">
+                <li>
+                  <h4>커피</h4>
+                  <ul>
+                    <li>콜드 브루</li>
+                    <li>브루드 커피</li>
+                    <li>에스프레소</li>
+                    <li>프라푸치노</li>
+                    <li>블렌디드 음료</li>
+                    <li>스타벅스 피지오</li>
+                    <li>티(티바나)</li>
+                    <li>기타 제조 음료</li>
+                    <li>스타벅스 주스(병음료)</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>에스프레소 음료</h4>
+                  <ul>
+                    <li>콜드 브루</li>
+                    <li>브루드 커피</li>
+                    <li>에스프레소</li>
+                    <li>프라푸치노</li>
+                    <li>블렌디드 음료</li>
+                    <li>스타벅스 피지오</li>
+                    <li>티(티바나)</li>
+                    <li>기타 제조 음료</li>
+                    <li>스타벅스 주스(병음료)</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="contents__texture">
+              <div class="inner">
+                <h4 class="new">스타벅스 티바나</h4>
+                <p>다양한 찻잎과 향신료 등 개성있는 재료로 새로운 맛과 향의 티를 선보입니다.</p>
+              </div>
+            </div>
+
+        </li>
+        <li class="item">
+          <div class="item__name">COFFEE</div>
+          <div class="item__contents">
+            <div class="contents__menu">
+              <ul class="inner">
+                <li>
+                  <h4>커피</h4>
+                  <ul>
+                    <li>콜드 브루</li>
+                    <li>브루드 커피</li>
+                    <li>에스프레소</li>
+                    <li>프라푸치노</li>
+                    <li>블렌디드 음료</li>
+                    <li>스타벅스 피지오</li>
+                    <li>티(티바나)</li>
+                    <li>기타 제조 음료</li>
+                    <li>스타벅스 주스(병음료)</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>에스프레소 음료</h4>
+                  <ul>
+                    <li>콜드 브루</li>
+                    <li>브루드 커피</li>
+                    <li>에스프레소</li>
+                    <li>프라푸치노</li>
+                    <li>블렌디드 음료</li>
+                    <li>스타벅스 피지오</li>
+                    <li>티(티바나)</li>
+                    <li>기타 제조 음료</li>
+                    <li>스타벅스 주스(병음료)</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="contents__texture">
+              <div class="inner">
+                <h4 class="new">스타벅스 티바나</h4>
+                <p>다양한 찻잎과 향신료 등 개성있는 재료로 새로운 맛과 향의 티를 선보입니다.</p>
+              </div>
+            </div>
+
+        </li>
+
+        </li>
+
+
+        </li>
+      </ul>
+
+    </div>
+    <div class="badges">
+      <div class="badge">
+        <img src="../images/badge1.jpg" alt="Badge">
+      </div>
+      <div class="badge">
+        <img src="../images/badge2.jpg" alt="Badge">
+      </div>
+    </div>
+  </header>
+  <!-- VISUAL -->
+  <section class="visual">
+    <div class="inner">
+      <div class="title fade-in">
+        <img src="../images/visual_title.png" alt="">
+        <a href="javascript:void(0)" class="btn btn--brown">자세히 보기</a>
+      </div>
+      <div class="fade-in">
+
+      </div>
+      <div class="fade-in">
+
+      </div>
+      <div class="fade-in">
+
+      </div>
+  </section>
+
+
+
+</body>
+
+</html>
